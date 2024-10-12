@@ -1,7 +1,12 @@
-# ToDoList
+# Proyecto To Do List: AppTareas
+
+
+https://github.com/user-attachments/assets/30aaaae9-1f98-4873-962c-5852018d5787
+
+
 
 ## Descripción
-Desarrollo de una aplicación web que permite a los empleados gestionar sus tareas. Los empleados pueden ver sus tareas asignadas y cambiar su estado entre "Pendiente" y "Completado". El administrador tiene acceso a un panel para gestionar empleados y asignar tareas, así como para editar y eliminar tareas existentes.
+Desarrollo de una aplicación web llamada AppTareas que permite a los empleados gestionar sus tareas. Los empleados pueden ver sus tareas asignadas y cambiar su estado entre "Pendiente" y "Completado". El administrador tiene acceso a un panel para gestionar empleados y asignar tareas, así como para editar y eliminar tareas existentes.
 
 ## Tecnologías
 - **Frontend**: HTML, Bootstrap, y JavaScript
