@@ -35,11 +35,11 @@ Desarrollo de una aplicación web que permite a los empleados gestionar sus tare
 
 ### Funcionalidades
 
-    - Para empleados:
-        Ver sus tareas asignadas.
-        Cambiar el estado de las tareas (Pendiente o Completado).
+- Para empleados:
+    Ver sus tareas asignadas.
+    Cambiar el estado de las tareas (Pendiente o Completado).
 
-    - Para administradores:
-        Agregar y eliminar empleados.
-        Asignar tareas a empleados.
-        Editar y eliminar tareas existentes.
+ - Para administradores:
+    Agregar y eliminar empleados.
+    Asignar tareas a empleados.
+    Editar y eliminar tareas existentes.
