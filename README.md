@@ -36,7 +36,43 @@ Desarrollo de una aplicación web llamada AppTareas que permite a los empleados 
 
     En el navegador accede a http://localhost/todolist para iniciar sesión.
     El administrador accede con el usuario admin y contraseña admin.
-    Los empleados acceden con el mail y contraseña, la contraseña es la primer letra de su nombre seguido del apellido (por ejemplo si tu nombre es Juan Perez, la contraseña seria jperez).
+    Los empleados acceden con el mail y contraseña, **la contraseña es la primer letra de su nombre seguido del apellido** (por ejemplo si tu nombre es Juan Perez, la contraseña seria jperez).
+
+   
+### Estructura del proyecto
+```
+/ToDoList/
+│
+├── config/
+│   └── config.php                # Archivo de configuración para la conexión a la base de datos.
+│
+├── controllers/                   # Controladores para gestionar las operaciones del sistema.
+│   ├── cerrarSesion.php           # Controlador para cerrar sesión de los usuarios.
+│   ├── darTareasEmpleado.php      # Controlador para asignar tareas a los empleados.
+│   ├── editarTareas.php           # Controlador para editar las tareas asignadas.
+│   ├── eliminarTareas.php         # Controlador para eliminar tareas.
+│   ├── expulsarEmpleados.php      # Controlador para eliminar empleados.
+│   ├── iniciarSesion.php          # Controlador para manejar el inicio de sesión de los usuarios.
+│   ├── obtenerTareas.php          # Controlador para obtener las tareas asignadas a los empleados.
+│   ├── registrarEmpleado.php      # Controlador para registrar nuevos empleados.
+│   └── tareasUsuario.php          # Controlador para gestionar las tareas específicas de cada usuario.
+│
+├── images/                        # Carpeta que contiene los iconos en formato SVG.
+│   └── (iconos SVG)
+│
+├── js/                            # Carpeta que contiene los archivos JavaScript.
+│   ├── script.js                  # Script para las funciones generales del panel.
+│   └── scriptLogin.js             # Script para ver y ocultar la contraseña del inicio de sesion.
+│
+├── sql/                           # Carpeta que contiene el archivo para generar la base de datos.
+│   └── asignador_tareas.sql       # Archivo SQL para generar la base de datos con las tablas.
+│
+├── index.php                      # Página principal de inicio de sesión.
+├── panel.php                      # Panel de administración donde el administrador puede gestionar empleados y tareas.
+└── tareas.php                     # Panel del empleado donde puede ver y actualizar sus tareas.
+
+```
+
 
 ### Funcionalidades
 
